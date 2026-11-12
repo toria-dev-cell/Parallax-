@@ -1,0 +1,116 @@
+/* Configurações gerais para ocupar 100% da tela */
+body, html {
+height: 100%;
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #333;
+}
+
+/* Estilo padrão para todas as imagens parallax /
+.parallax-primavera, .parallax-verao, .parallax-outono, .parallax-inverno {
+position: relative;
+opacity: 0.90;
+/ O segredo do efeito Parallax: */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* 1ª Imagem: Primavera (Substitua pelo nome da sua imagem no GitHub) */
+.parallax-primavera {
+background-image: url("imagens/primavera.jpg");
+min-height: 100%;
+}
+
+/* 2ª Imagem: Verão */
+.parallax-verao {
+background-image: url("imagens/verao.jpg");
+min-height: 450px;
+}
+
+/* 3ª Imagem: Outono */
+.parallax-outono {
+background-image: url("imagens/outono.jpg");
+min-height: 450px;
+}
+
+/* 4ª Imagem: Inverno */
+.parallax-inverno {
+background-image: url("imagens/inverno.jpg");
+min-height: 100%;
+}
+
+/* Centraliza o texto no meio das imagens */
+.caption {
+position: absolute;
+left: 0;
+top: 50%;
+width: 100%;
+text-align: center;
+transform: translateY(-50%);
+}
+
+/* Estilo base da placa do título */
+.caption span.border {
+color: #fff;
+padding: 18px 28px;
+font-size: 25px;
+letter-spacing: 8px;
+border-radius: 5px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Cores personalizadas para cada estação /
+.primavera {
+background-color: #d81b60; / Rosa Floral */
+border: 2px solid #f8bbd0;
+}
+
+.verao {
+background-color: #f57c00; /* Laranja Solar */
+border: 2px solid #ffe082;
+}
+
+.outono {
+background-color: #8d4004; /* Marrom/Terroso */
+border: 2px solid #ffcc80;
+}
+
+.inverno {
+background-color: #1565c0; /* Azul Gelo */
+border: 2px solid #bbdefb;
+}
+
+/* Caixa de texto clara */
+.box-clara {
+color: #444;
+background-color: #fafafa;
+text-align: center;
+padding: 50px 80px;
+line-height: 1.8;
+}
+
+.box-clara h3 {
+letter-spacing: 4px;
+text-transform: uppercase;
+font-size: 22px;
+color: #2e7d32; /* Verde Natureza */
+}
+
+/* Faixas coloridas entre as imagens */
+.box-escura {
+color: #ffffff;
+text-align: center;
+padding: 40px 80px;
+font-size: 18px;
+letter-spacing: 1px;
+}
+
+.verao-bg {
+background-color: #00838f; /* Azul Turquesa/Mar */
+}
+
+.outono-bg {
+background-color: #5d4037; /* Marrom Café */
+}
